@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tribute Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900" rel="stylesheet">
+    <script src="https://use.fontawesome.com/f13ac37978.js"></script>
+
+</head>
+<body> 
+
+<div class="container">
+    <header style="border-bottom: 1px solid #838d8f;">
+        <div class="icons res">
+            <a href="#" target="_blank">
+                <i class="fa fa-facebook" aria-hidden="true"></i>
+            </a>
+            <a href="#" target="_blank">
+                <i class="fa fa-twitter" aria-hidden="true"></i>
+            </a>
+            <a href="#" target="_blank">
+                <i class="fa fa-instagram" aria-hidden="true"></i>
+            </a>
+        </div>
+        <div class="sounder res">
+            <img class="logo" src="sounder-logo-type.png">
+        </div>
+        <!-- <h1 class="head-text">Welcome to my homework web-site! Enjoy!</h1> -->
+        <div class="sub res">
+            <button id="btn">SUBSCRIBE</button>
+        </div>
+        <div style="clear: both"></div>
+    </header>
+    <nav class="meniu">
+        <ul>
+            <li><a href="#" target="_blank"><h3>HOME</h3></a></li>
+            <li><a href="#" target="_blank"><h3>PROJECTS</h3></a></li>
+            <li><a href="#" target="_blank"><h3>ABOUT</h3></a></li>
+            <li><a href="#" target="_blank"><h3>CONTACT</h3></a></li>
+            <li><a href="#" target="_blank"><h3>CONTACTS</h3></a></li>
+        </ul>
+    </nav>
+    <div class="content">
+        <div class="left-content">
+            <div id="box01" class="box">
+                <div class="open-box">
+                   <h3><i class="fa fa-plus" id="fa-open" onclick="openFunction1()" aria-hidden="true"></i> NEWS</h3>
+                </div>
+                <div id="close-box1">
+                    <p>Today we created a new web site <span id="show-txt" onclick="showTxt()">read more</span><span id="hidden-txt"> made at 'Web programming' course. We learned about HTML (Hyper Text Markup Language), CSS (Cascading Style Sheets) and JS (JavaScript) </span><span id="hide-txt" onclick="hideTxt()">hide detail</span></p>
+                        <p>This is a red paragraph, it has 'red-element' class (declared in style.css)</p>
+                        <p>One more red paragraph</p>
+                        <p>Normal paragraph</p>
+                </div>
+            </div>
+            <div id="box02" class="box">
+                <div class="open-box">
+                    <h3><i class="fa fa-plus" id="fa-open2" onclick="openFunction2()"  aria-hidden="true"></i> HELP LINKS</h3>
+                </div>
+                <div id="close-box2">
+                    <p><a href="http://www.cssmatic.com/box-shadow">box-shadow generator</a></p><br>
+                    <p><a href="http://www.cssmatic.com/border-radius">border-radius generator</a></p>  
+                </div>
+            </div>
+            <div id="box03" class="box">
+                <div class="open-box">
+                   <h3><i class="fa fa-plus" id="fa-open3" onclick="openFunction3()"  aria-hidden="true"></i> SEARCH</h3>
+                </div>
+                <div id="close-box3">
+                    <h3>Comeing soon...</h3>    
+                </div>
+            </div>    
+        </div>
+        <div class="right-content">
+            
+        </div>
+    </div>
+
+</div>
+    <script src="script.js"></script>
+</body>
+</html>

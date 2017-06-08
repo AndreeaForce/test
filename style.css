@@ -1,0 +1,208 @@
+p {
+    font-family: 'Roboto', sans-serif;
+}
+h3 {
+    font-family: 'Roboto', sans-serif;
+}
+h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 26px;
+    font-weight: 300;
+}
+.logo {
+    max-width: 240px;
+    display: block;
+    margin: auto;
+    padding: 10px;
+}
+
+.container {
+}
+
+header {
+    max-width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.head-text {
+    display: inline-block;
+    min-width: 190px;
+    text-align: left;
+    float: right;
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+.head-text h1 {
+    margin: 0;
+}
+
+.icons {
+    float: left;
+    width: 33.33333%;
+
+}
+.icons a {
+    color: #838d8f;
+    border: 1px solid #D9D9D9;
+    border-radius: 16px;
+    width: 32px;
+    height: 32px;
+    line-height: 33px;
+    text-align: center;
+    margin: 30px 10px 30px 0;
+    display: inline-block;
+}
+.icons a:hover {
+    background-color: skyblue;
+    color: white;
+}
+@media only screen and (max-width: 700px){
+    .icons a {
+        display: block;
+        margin: 10px auto;
+        float: none;
+    }
+}
+
+.sub {
+    float: left;
+    width: 33.33333%;
+}
+button {
+    float: right;
+    height: 34px;
+    padding: 10px;
+    border: 1px solid #838d8f;
+    border-radius: 3px;
+    color: #838d8f;
+    background-color: white;
+    width: 40%;
+    margin: 30px 0;
+}
+button:hover {
+    background-color: skyblue;
+    color: white;
+    border: none;
+}
+@media only screen and (max-width: 700px){
+    button {
+        display: block;
+        margin: 10px auto;
+        float: none;
+    }
+}
+.sounder {
+    float: left;
+    display: inline-block;
+    width: 180px;
+    width: 33.33333%;
+}
+@media only screen and (max-width: 700px){
+    .res {
+        width: 100%;
+    }
+}
+.meniu ul {
+    width: 650px;
+    display: block;
+    margin: auto;
+}
+.meniu li {
+    display: inline-block;
+    margin-right: 30px;
+}
+.meniu li h3 {
+    font-size: 16px;
+    font-weight: 400;
+    padding: 10px;
+    letter-spacing: 1.5px;
+}
+.meniu ul li a {
+    text-decoration: none;
+    color: black;
+}
+.left-content {
+    width: 33.33333%;
+}
+
+.content {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.open-box {
+    height: 60px;
+    background-color: skyblue;
+    display: block;
+    border: 1px solid white;
+    border-radius: 3px;
+}
+.open-box h3 {
+    margin-left: 20px;
+    color: white;
+    letter-spacing: 1.5px;
+}
+.open-box i:hover {
+    color: #838d8f;
+    
+}
+
+#close-box1 {
+    display: none;
+}
+#close-box1 p {
+    border-bottom: 1px solid #D9D9D9;
+    padding: 20px;
+    margin: 0 0 0 10px;
+}
+#close-box1 p:last-child {
+    border-bottom: none;
+}
+#close-box1 p:nth-child(2), #close-box1 p:nth-child(3)  {
+    color: red;
+}
+
+#close-box2 {
+    display: none;
+}
+#close-box2 p {
+    padding: 20px;
+    margin: 0 0 0 10px;
+    border-bottom: 1px solid black;
+}
+#close-box2 p:last-child {
+    margin-top: -19px;
+}
+
+#close-box3 {
+    display: none;
+}
+
+#hidden-txt {
+    display: none;
+}
+
+#hide-txt {
+    display: none;
+    color: skyblue;
+    cursor: pointer;
+}
+
+#show-txt {
+    color: skyblue;
+    display: inline-block;
+    cursor: pointer;
+}
+
+#fa-open {
+    cursor: pointer;
+}
+
+#fa-open2 {
+    cursor: pointer;
+}
+
+.fa-plus {
+    cursor: pointer;
+    margin-right: 10px;
+}
