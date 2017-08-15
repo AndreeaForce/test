@@ -1,0 +1,43 @@
+#contacte-list {
+    border-collapse: collapse;
+    margin: 5px 0 5px 0;
+    width: 100%;
+    margin-left: 10px;
+}
+#contacte-list, #contacte-list td, #contacte-list th {
+    border: 1px solid #29a7e1;
+}
+#contacte-list td, #contacte-list th {
+    padding: 5px;
+    text-align: center;
+}
+#contacte-list .actiuni a {
+    text-decoration: none;
+}
+#contacte-list .actiuni span {
+    display: none;
+}
+#contacte-list td a:hover {
+    color: skyblue;
+}
+#contacte-list tr:hover .actiuni a {
+     color: black;
+}
+#contacte-list tr:hover .actiuni span {
+    display: inline;
+}
+.frimituri {
+    margin-left: 10px;
+    padding: 10px;
+}
+
+#add-btn {
+    border: 1px solid #838d8f;
+    border-radius: 3px;
+    color: #838d8f;
+    background-color: white;
+}
+
+#contacte-form {
+    margin-left: 10px;
+}

@@ -49,3 +49,13 @@ function hideTxt() {
     y.style.display = "block";
     z.style.display = "none";
 }
+
+function toggleMenu() {
+    var open = document.getElementById('meniu-xs');
+    
+    if (open.style.display == 'block') {
+        open.style.display = 'none';
+    } else {
+        open.style.display = 'block';
+    }
+}

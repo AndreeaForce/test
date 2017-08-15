@@ -15,7 +15,7 @@ h1 {
     margin: auto;
     padding: 10px;
 }
-
+F
 .container {
 }
 
@@ -39,7 +39,6 @@ header {
 .icons {
     float: left;
     width: 33.33333%;
-
 }
 .icons a {
     color: #838d8f;
@@ -49,8 +48,11 @@ header {
     height: 32px;
     line-height: 33px;
     text-align: center;
-    margin: 30px 10px 30px 0;
+    margin: 25px 10px 30px 0;
     display: inline-block;
+}
+.icons a:first-child {
+    margin-left: 20px;
 }
 .icons a:hover {
     background-color: skyblue;
@@ -58,17 +60,15 @@ header {
 }
 @media only screen and (max-width: 700px){
     .icons a {
-        display: block;
-        margin: 10px auto;
-        float: none;
+        display: none;
+
     }
 }
-
 .sub {
     float: left;
     width: 33.33333%;
 }
-button {
+#btn {
     float: right;
     height: 34px;
     padding: 10px;
@@ -77,9 +77,9 @@ button {
     color: #838d8f;
     background-color: white;
     width: 40%;
-    margin: 30px 0;
+    margin: 25px 20px 0;
 }
-button:hover {
+#btn:hover {
     background-color: skyblue;
     color: white;
     border: none;
@@ -111,6 +111,11 @@ button:hover {
     display: inline-block;
     margin-right: 30px;
 }
+@media only screen and (max-width: 700px){
+    .meniu li {
+        margin-right: 10px;
+    }
+}
 .meniu li h3 {
     font-size: 16px;
     font-weight: 400;
@@ -123,11 +128,18 @@ button:hover {
 }
 .left-content {
     width: 33.33333%;
+    float: left;
 }
-
+@media only screen and (max-width: 700px){
+    .left-content {
+        display: none;
+    }
+}
 .content {
+    max-width: 1024px;
     margin-left: auto;
     margin-right: auto;
+    padding: 0 20px 0 20px;
 }
 
 .open-box {
@@ -149,6 +161,7 @@ button:hover {
 
 #close-box1 {
     display: none;
+    
 }
 #close-box1 p {
     border-bottom: 1px solid #D9D9D9;
@@ -205,4 +218,80 @@ button:hover {
 .fa-plus {
     cursor: pointer;
     margin-right: 10px;
+}
+
+.box {
+    min-width: 200px;
+}
+
+.right-content {
+   width: 66.66666%;
+    float: right;
+}
+@media only screen and (max-width: 700px){
+    .right-content {
+        width: 100%;
+        float: left;
+    }
+}
+.main-text {
+    padding-left: 40px;
+}
+
+@media only screen and (max-width: 700px){
+    .main-text {
+    padding-left: 20px;
+    }
+}
+.meniu-xs {
+    display: none;
+}
+.meniu-xs a {
+    display: block;
+    text-decoration: none;
+}
+.meniu-xs li {
+    list-style-type: none;
+    cursor: pointer;
+}
+#menutoggle {
+   font-size: 30px
+}
+
+#meniu-xs {
+    display: none;
+}
+#meniu-xs ul {
+    list-style-type: none;
+    background-color: #D9D9D9;
+}
+#meniu-xs li {
+    padding-top: 5px;
+    font-size: 14px;
+    border-bottom: 1px solid skyblue;
+    margin-right: 30px;
+}
+#meniu-xs li:last-child {
+    padding-bottom: 5px;
+}
+#meniu-xs  a {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+.meniu-xs-cont {
+        display: none;
+    }
+@media only screen and (max-width: 700px){
+    .meniu-xs-cont {
+        display: block;
+    }
+}
+@media only screen and (max-width: 700px){
+    .meniu {
+        display: none;
+    }
+}
+.fa-menu {
+    margin: 10px 0 0 10px;
 }
